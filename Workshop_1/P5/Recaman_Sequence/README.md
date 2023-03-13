@@ -1,6 +1,6 @@
-<h2> Ultimate Tic-Tac-Toe ✏</h2>
+<h2> Recamán's Sequence</h2>
 
-This is the classic game "Tic-tac-toe" in command line interface, made with Python 3.9.
+.
 
 <h2> Rules ✅</h2>
 
