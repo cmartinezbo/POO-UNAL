@@ -41,19 +41,6 @@ function draw() {
     sign = 1;
   }
   
-
-  // Update the current value randomly
-/*   currentX = sign; */
-
-  // Draw the current and previous values on the canvas
-  /* textSize(32);
-  textAlign(CENTER);
-  text("Current X: " + currentX, width/2, 50 + i);
-  text("Previous X: " + previousX, width/2, 50 + 350 + i);
-  i += 50; */
-
-
-
   let radius = sign * (step * currentIndex); // Calculamos el radio del semicírculo
   currentX = (radius + previousX); // Coordenada x del semicírculo
 
