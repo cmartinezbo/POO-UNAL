@@ -1,6 +1,9 @@
 <h2> Recamán's Sequence</h2>
 
-.
+The Recaman's sequence is named after its Colombian inventor, <a href="https://es.wikipedia.org/wiki/Bernardo_Recam%C3%A1n_Santos"> Bernardo Recamán Santos</a>
+. It's a well-known sequence that is defined by the recurrence relation. We can define it by recursion. 
+
+<img src="https://3.bp.blogspot.com/-hTVrDPSYmXM/Wy8JnuXkSkI/AAAAAAAAKiE/8TdWhmlpIsgQrf-XjZCjtIGp-H-wMU9LQCLcBGAs/s1600/Heading.png" alt="Recaman's Sequence" width="700" height="400">
 
 <h2> Rules ✅</h2>
 
