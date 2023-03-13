@@ -5,7 +5,7 @@ The Recaman's sequence is named after its Colombian inventor, <a href="https://e
 
 <img src="https://3.bp.blogspot.com/-hTVrDPSYmXM/Wy8JnuXkSkI/AAAAAAAAKiE/8TdWhmlpIsgQrf-XjZCjtIGp-H-wMU9LQCLcBGAs/s1600/Heading.png" alt="Recaman's Sequence" width="700" height="400">
 
-<h2> Rules ✅</h2>
+<h2> Definition</h2>
 
   - The game is played on a grid that's 3 squares by 3 squares.
 
@@ -15,7 +15,9 @@ The Recaman's sequence is named after its Colombian inventor, <a href="https://e
 
   - When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.
   
- <h2> How to play 🔍</h2>
+ <h2> Watch it!</h2>
+ 
+  - look <a href="https://racaman-sequence.poo-un.repl.co/"> Sequence.</a> 
  
   - Players have to choose their figures, it does not matter capital letters.
   
