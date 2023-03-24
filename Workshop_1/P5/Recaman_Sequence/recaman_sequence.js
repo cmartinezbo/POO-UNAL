@@ -20,11 +20,12 @@ let previousX;
 
 let sliderX = 25 + xInitial;
 let sliderY = 20;
+let sliderWidth = 200;
 let sliderInitial = 1;
 let sliderFinal = 50000;
 let sliderBegin = 100; //Sequence index
 
-let buttonX = sliderX + 190;
+let buttonX = sliderX + sliderWidth + 15;
 let buttonY = sliderY - 7;
 let buttonW = 50;
 let buttonH = 30;
@@ -41,7 +42,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   slider = createSlider(sliderInitial, sliderFinal, sliderBegin); // create slider with min value 0, max value 100, and starting value 50
   slider.position(sliderX, sliderY); // set the position of the slider
-  slider.size(175, 10);
+  slider.size(200, 10);
   frameRate(fps); // set the frame rate
   background(backgroundColor);
   noFill();
@@ -67,7 +68,7 @@ function draw() {
   textSize(20);
   fill(0);
   fill(textColor);
-  text("Slider value: " + sliderCurrent, sliderX - 5, sliderY + 30); // display the current value of the slider
+  text("Desired value: " + sliderCurrent, sliderX - 5, sliderY + 30); // display the current value of the slider
   pop();
   
   // check if the mouse is over the button
@@ -184,7 +185,7 @@ function draw() {
       fill(255);
       textSize(30)
       let k = currentIndex + 1;
-      text('n = ' + k, width/2 - 45, height - 30);
+      text('n = ' + k, width/2 - 80, height - 30);
       pop();
 
     
