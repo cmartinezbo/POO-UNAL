@@ -1,6 +1,7 @@
 //RECAMAN SEQUENCE
 let sign;
 let fps = 60;
+let axisThickness = 3;
 
 let sequence;
 let currentIndex = -1;
@@ -51,14 +52,14 @@ function draw() {
   push();
   noStroke();
   fill(backgroundColor);
-  rect(xInitial, 0, width / 2 + 175, 70); //set background color in draw() to avoid figure overlapping
+  rect(xInitial, 0, width - (2*xInitial), (xInitial + 25)); //set background color in draw() to avoid figure overlapping
   pop();
   
   push();
   textSize(32);
   fill(0);
   fill(textColor);
-  text("Recaman Sequence", width / 2 - 175, sliderY + 12);
+  text("Recaman Sequence", width / 2 - 175, sliderY + 23);
   pop();
 
   push();
@@ -125,17 +126,18 @@ function draw() {
 
   // Set line thickness of axis
   push();
-  strokeWeight(3);
+  strokeWeight(axisThickness);
   stroke(gridColor); // Sets the stroke color
+  
   line(xInitial, 0, xInitial, height);
 
   line(0, height / 2, width, height / 2);
 
-  line(0, 70, width, 70);
+  line(0, (xInitial + 25), width, (xInitial + 25));
 
-  line(0, height - 70, width, height - 70);
+  line(0, height - (xInitial + 25), width, height - (xInitial + 25));
 
-  line(width - 45, 0, width - 45, height);
+  line(width - (xInitial), 0, width - (xInitial), height);
   pop();
 
   //Sequence drawing process
@@ -148,7 +150,7 @@ function draw() {
       positions = [0];
       hop = 0;
     
-      for (let i = 0; i < n; i++) {
+      for (let i = 0; i < n; i++) {             
         hop++;
         currentPos = positions[i] - hop;
         
@@ -171,6 +173,19 @@ function draw() {
       currentIndex = 0;
       previousX = xInitial;
     }
+      push();
+      noStroke();
+      fill(backgroundColor);
+      rect(xInitial + 10, height - (xInitial + 15), width - (2*xInitial) - 20, height); //set background color in draw() to avoid figure overlapping
+      pop();
+
+
+      push();
+      fill(255);
+      textSize(30)
+      let k = currentIndex + 1;
+      text('n = ' + k, width/2 - 45, height - 30);
+      pop();
 
     
     
