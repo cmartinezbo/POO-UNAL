@@ -1,4 +1,4 @@
-let xA = 120;
+let xA = 135;
 let yA = 100;
 let rectangleAWidth = 100;
 let rectangleAHeight = 25;
