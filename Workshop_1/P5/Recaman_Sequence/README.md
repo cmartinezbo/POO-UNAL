@@ -3,56 +3,16 @@
 The Recaman's sequence is named after its Colombian inventor, <a href="https://es.wikipedia.org/wiki/Bernardo_Recam%C3%A1n_Santos"> Bernardo Recamán Santos</a>
 . It's a well-known sequence that is defined by the recurrence relation. We can define it by recursion. 
 
-<img src="https://3.bp.blogspot.com/-hTVrDPSYmXM/Wy8JnuXkSkI/AAAAAAAAKiE/8TdWhmlpIsgQrf-XjZCjtIGp-H-wMU9LQCLcBGAs/s1600/Heading.png" alt="Recaman's Sequence" width="700" height="400">
+<img src="https://live.staticflickr.com/1807/42209946215_eb3a3f0cd6_b.jpg" alt="Recaman's Sequence" width="663" height="348">
 
-<h2> Definition</h2>
-
-  - The game is played on a grid that's 3 squares by 3 squares.
-
-  - Player 1 choose between ❌ or ⭕, Player 2 will be the other option. Players take turns putting their marks in empty squares.
-
-  - The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.
-
-  - When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.
-  
- <h2> Watch it!</h2>
+ <h2> Instructions </h2>
  
-  - look <a href="https://racaman-sequence.poo-un.repl.co/"> Sequence.</a> 
- 
-  - Players have to choose their figures, it does not matter capital letters.
+  - Go to the following <a href="https://racaman-sequence.poo-un.repl.co/"> <em> link </em> </a> to look the sequence.
   
-      ```
-      Which one do you want? X or O?: o
-      or
-      Which one do you want? X or O?: X
-      ```
+  - Select the n-th semi-circle to display betwen 1 to 50000.
+  
+  - You can select between Light or Dark theme.
 
-  - Each player can choose the color of their figures, it does not matter how do you type it. 
+  - Also, you can adjust the FPS to run the sequence (60 FPS = 60 semi-circles per second).
   
-    
-      ```
-      Player 1, choose your color: red
-      Player 2, choose your color: MAGENTA
-      ```
- 
-  - Each place has its number ``(1-9)``, players have to type the place where they want to play.
-
-  - Board reference:
-  
-    <img src="https://gurmeet.net/Images/puzzles/fifteen_sum.gif" alt="Girl in a jacket" width="150" height="150">
- 
- <h2> Instructions ⚠</h2>
- 
-  - ¡You should use a terminal that supports supports colorized ASCII character for a better experience! I suggest you<a href="https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab"> this one.</a>
-  
-  - Make sure you have Python's latest version, <a href="https://www.python.org/downloads/"> Get It here!</a>
- 
-  - Game requires <a href="https://pypi.org/project/termcolor/"> TermColor library.</a> 
-  
-      - Type ``pip install termcolor``
-
-  - Download the game <a href="https://github.com/xtianmb/Tic-Tac-Toe/releases/download/v0.1/tictactoe.py"> here</a>, run it in the terminal typing ``cd [folder where the game file is]``, 
-
-  - Then type ``py tictactoe.py`` and enjoy the game!
-  
-  - Follow me and stay tuned to future updates. 
+  - Finally, ¡press start and enjoy the Recamán's Sequence!
