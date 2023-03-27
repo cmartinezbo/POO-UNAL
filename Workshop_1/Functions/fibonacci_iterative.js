@@ -1,5 +1,3 @@
-// Fibonacci Iterative
-
 function fibonacciSequenceIterative(n) {
     let myArray = [0, 1];
     for (let i = 0; i < (n - 2); i++) {
