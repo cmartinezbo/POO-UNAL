@@ -1,5 +1,3 @@
-// Palindromes
-
 function splitIntoArray(text) {
     let wordsArray = text.split(' ');
     return wordsArray
