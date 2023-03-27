@@ -1,4 +1,3 @@
-//RECAMAN SEQUENCE
 let sign;
 let fps = 60;
 let axisThickness = 3;
