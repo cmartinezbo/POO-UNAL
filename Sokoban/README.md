@@ -1,18 +1,23 @@
-<h2> Recamán's Sequence</h2>
+<p align="center">
+  <img width="500" src="https://github.com/cmartinezbo/POO-UNAL/blob/main/Sokoban/GitHub%20Resources/titleGitHub.png"/>
+</p>
 
-The Recaman's sequence is named after its Colombian inventor, <a href="https://es.wikipedia.org/wiki/Bernardo_Recam%C3%A1n_Santos"> Bernardo Recamán Santos</a>
-. It's a well-known sequence that is defined by the recurrence relation. We can define it by recursion. 
+<p align="center">
+  <strong>Welcome to <a href="https://sokoban.poo-un.repl.co/"> Sokoban Game: Blue Lock Edition</a>. An online, 2D Sokoban game using JavaScript, P5 and HTML5.</strong>
+</p>
 
-<img src="https://live.staticflickr.com/1807/42209946215_eb3a3f0cd6_b.jpg" alt="Recaman's Sequence" width="663" height="348">
+<p align="center">
+  <img width="500" alt="Game screenshot" src="https://github.com/cmartinezbo/POO-UNAL/blob/main/Sokoban/GitHub%20Resources/image.png">
+</p>
 
  <h2> Instructions </h2>
  
-  - Go to the following <a href="https://racaman-sequence.poo-un.repl.co/"> <em> link </em> </a> to look the sequence.
+  - Go to the following <a href="https://sokoban.poo-un.repl.co/"> <em> link </em> </a> to play the game.
   
-  - Select the n-th semi-circle to display betwen 1 to 50000.
+  - You can select between 6 different players, 11 unique sports and 6 diverse maps.
   
-  - You can select between Light or Dark theme.
+  - You can move your player in 4 different directions (up, down, left, right).
 
-  - Also, you can adjust the FPS to run the sequence (60 FPS = 60 semi-circles per second).
+  - Also, you can use either WASD or arrow keys to move your player.
   
-  - Finally, ¡press start and enjoy the Recamán's Sequence!
+  - Finally, ¡press play and have fun!
