@@ -16,7 +16,7 @@
   
   - Once you open the game, detailed instructions are given.
   
-  - There are two different interfaces, in the settings menu you can choose the player, the sport and the level you want to play. Once you press the play button, the fun begins (while playing you cannot adjust the settings mentioned at the beginning). 
+  - There are two different interfaces, in the settings menu you can choose between 6 available players, 11 unique sports and 6 levels for you to play. Once you press the play button, the fun begins (while playing you cannot adjust the settings mentioned at the beginning). 
   
   - There is a level that implements the classical maze game, try to find it.
   
