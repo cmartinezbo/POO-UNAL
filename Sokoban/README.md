@@ -36,6 +36,8 @@
   - There is a time andmMove counter that allows user to track his score on every attempt of a level. Once the user ends a level, a window prompt will show the final score while a win sound is played. 
   - Sokoban game mechanics allow level creation to make a maze map also, so there are 2 games in 1 (Sokoban and Maze).
 
+<h2> Results 🕹️</h2>
+  - You can find a mobile test of the game <a href="https://github.com/cmartinezbo/POO-UNAL/blob/main/Sokoban/Test/Mobile Test">here</a>.
 
  <h2> Future Features 🔜</h2>
  
