@@ -37,7 +37,7 @@
   - Sokoban game mechanics allow level creation to make a maze map also, so there are 2 games in 1 (Sokoban and Maze).
 
 <h2> Results 🕹️</h2>
-  - You can find a mobile test of the game <a href="https://github.com/cmartinezbo/POO-UNAL/blob/main/Sokoban/Test/Mobile_Test">here</a>.
+  - You can find a mobile test of the game <a href="https://github.com/cmartinezbo/POO-UNAL/blob/main/Sokoban/Test/Mobile Test.mp4">here</a>.
 
  <h2> Future Features 🔜</h2>
  
