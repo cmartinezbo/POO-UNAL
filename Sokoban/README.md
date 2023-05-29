@@ -33,6 +33,7 @@
   - There are visual and sound responses to user inputs, such as play/settings button and sliders.
   - There is music played according to play/settings interface.
   - If a sound starts playing in draw function of p5, the audio overlaps one on top of the other, according to each iteration of the loop. That's why a function is created to only work in the first loop of the draw function, so that the audios are played only once and this problem is solved.
+  - There is a time andmMove counter that allows user to track his score on every attempt of a level. Once the user ends a level, a window prompt will show the final score while a win sound is played. 
   - Sokoban game mechanics allow level creation to make a maze map also, so there are 2 games in 1 (Sokoban and Maze).
 
 
