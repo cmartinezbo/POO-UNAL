@@ -10,7 +10,7 @@
   <img width="500" alt="Game screenshot" src="https://github.com/cmartinezbo/POO-UNAL/blob/main/Sokoban/GitHub%20Resources/image.png">
 </p>
 
- <h2> Instructions ✅</h2>
+ <h2> Introduction ✅</h2>
  
   - Go to the following <a href="https://sokoban.poo-un.repl.co/"> <em> link </em> </a> to play the game.
   
