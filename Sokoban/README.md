@@ -43,7 +43,7 @@
   - Our plan is that you could play with your friends by cross-platform (PC and mobile), also you will be able to play with your friends offline (Multiplayer).
 
 
- <h2> Try to beat Creator's Scoreboard 🔜</h2>
-  - You can find our scoreboard for the first 4 levels <a href="https://github.com/cmartinezbo/POO-UNAL/blob/main/Sokoban/Creator's Scoreboard">here</a>.
+ <h2> Try to beat Creator's Scoreboard 🏆</h2>
+  - You can find our scoreboard for the first 4 levels <a href="https://github.com/cmartinezbo/POO-UNAL/blob/main/Sokoban/Creator's Scoreboard">here</a>, try to beat us.
 
 
