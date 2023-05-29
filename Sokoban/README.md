@@ -29,9 +29,11 @@
 
  <h2> Key Implementation Details 🛠</h2>
  
-  - We used JSON to create maps (<a href="https://github.com/cmartinezbo/POO-UNAL/blob/main/Sokoban/Resources/Maps/map1.json">here</a> you can find an example) and also to get every object position to allow either player and ball movement, it also allows every object to interact with each other.
-  - If a sound starts playing in draw function, the audio overlaps one on top of the other, according to each iteration of the loop. That's why we created a function that acts only in the first loop of the draw function, so that the audios are played only once and this problem is solved.
-  - 2 games in 1 (Sokoban and Maze).
+  - JSON is used to create maps (<a href="https://github.com/cmartinezbo/POO-UNAL/blob/main/Sokoban/Resources/Maps/map1.json">here</a> you can find an example) and also to get every object position to allow either player and ball movement, it also allows every object to interact with each other.
+  - There are visual and sound responses to user inputs, such as play/settings button and sliders.
+  - There is music played according to play/settings interface.
+  - If a sound starts playing in draw function of p5, the audio overlaps one on top of the other, according to each iteration of the loop. That's why a function is created to only work in the first loop of the draw function, so that the audios are played only once and this problem is solved.
+  - Sokoban game mechanics allow level creation to make a maze map also, so there are 2 games in 1 (Sokoban and Maze).
 
 
  <h2> Future Features 🔜</h2>
@@ -39,3 +41,9 @@
   - We will implement a scoreboard where you will find the best scores for each map.
   - We are going to develop and design more maps, levels, characters, sounds and personalization.
   - Our plan is that you could play with your friends by cross-platform (PC and mobile), also you will be able to play with your friends offline (Multiplayer).
+
+
+ <h2> Try to beat Creator's Scoreboard 🔜</h2>
+  - You can find our scoreboard for the first 4 levels <a href="https://github.com/cmartinezbo/POO-UNAL/blob/main/Sokoban/Creator's Scoreboard">here</a>.
+
+
