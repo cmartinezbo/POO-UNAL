@@ -42,6 +42,7 @@
   - We will implement a scoreboard where you will find the best scores for each map.
   - We are going to develop and design more maps, levels, characters, sounds and personalization.
   - Our plan is that you could play with your friends by cross-platform (PC and mobile), also you will be able to play with your friends offline (Multiplayer).
+  - Even that game board adjust to the size of the window of your current page, we want to improve user interface to proper adjust every object position (such as button and sliders), so there is a better user interface in every device you play at.
 
 
  <h2> Creator's Scoreboard 🏆</h2>
