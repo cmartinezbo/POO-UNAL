@@ -29,8 +29,8 @@
 
  <h2> Key Implementation Details 🛠</h2>
  
-  - We used JSON to create maps (<a href="https://github.com/cmartinezbo/POO-UNAL/blob/main/Sokoban/Resources/Maps/map1.json">here</a> you can find an example) and also to get every object position to allow not only player movement but ball too, also it allows every object to interact with each other.
-  - If a sound starts playing in draw function, the audio overlaps one on top of the other, according to each iteration of the loop, that's why we created a function that acts only in the first loop of the draw function, so that the audios are played only once and this problem is solved.
+  - We used JSON to create maps (<a href="https://github.com/cmartinezbo/POO-UNAL/blob/main/Sokoban/Resources/Maps/map1.json">here</a> you can find an example) and also to get every object position to allow either player and ball movement, it also allows every object to interact with each other.
+  - If a sound starts playing in draw function, the audio overlaps one on top of the other, according to each iteration of the loop. That's why we created a function that acts only in the first loop of the draw function, so that the audios are played only once and this problem is solved.
   - 2 games in 1 (Sokoban and Maze).
 
 
