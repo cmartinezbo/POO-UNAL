@@ -23,3 +23,6 @@
   - You can not only play in your computer (wasd or arrow keys), but you can play it on your phone (just slide in whatever direction you want, android devices and chrome browser are suggested).
   
   - Finally, ¡press play and have fun!
+
+
+- You can find <a href="https://github.com/cmartinezbo/POO-UNAL/blob/main/Sokoban/GitHub%20Resources/References.md">here</a> all references of resources used on this game.
